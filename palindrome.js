@@ -2,7 +2,7 @@
 // let food =['Pizza','Hamburger','Wings','Sushi'];
 // console.log(colors)
 
-let word = "balls"
+let word = "racecar"
 
 function isPalindrome(str){
     //orginal compare it to a 2nd one, reversed
