@@ -1,0 +1,44 @@
+<!-- Write a program to look for the user input in an array. When it finds the first occurrence, display the value and the index of that value -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Look for user input in array</title>
+</head>
+<body style="color: rgb(230, 156, 111);">
+    <p id="p1"></p>
+    
+    <script>
+
+    const inputArray = 0
+    let array = ["1","2","3","4","5","6","7","8","9","10"]
+    let num = prompt("enter a number ")
+    let index = -1
+    for(let i=0; i<array.length; i++){
+       if(num ==  array[i]){
+        index=i 
+        break   
+       } 
+       
+    }
+//console.log(num)
+console.log('this is your number '+num+ " at index "+ index)
+
+
+
+
+
+
+
+
+    </script>
+
+
+
+
+
+</body>
+</html>

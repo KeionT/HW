@@ -1,0 +1,28 @@
+<!-- 1. Write a program to add up all the elements of a number array. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Write a program to add up all the elements of a number array.</title>
+</head>
+<body>
+
+    <p id="p1"></p>
+    <script>
+    let addedElements = 0
+    array = [5,10,10,50,10]
+    for(i=0; i<array.length; i++ ){ // i is less than the array.length & will go to the end of the array
+    addedElements = addedElements + array[i]     //addedElements += array[i] shorthand //add up all the elements 
+    }
+    console.log(addedElements)
+    document.getElementById('p1').innerHTML=addedElements
+
+
+
+
+    </script>
+    
+</body>
+</html>

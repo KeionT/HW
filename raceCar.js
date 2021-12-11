@@ -2,10 +2,10 @@
 // let food =['Pizza','Hamburger','Wings','Sushi'];
 // console.log(colors)
 
-racecar
+//racecar
 function reverse (str)
 {
-    for(let i= len; i>=0 i--){
+    for(let = i; i>=0; i--){
         strReverse+=str.charAr(i)
     }
     if(strReverse === str){
