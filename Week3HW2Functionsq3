@@ -1,0 +1,10 @@
+const activities = [
+    { name : "Swimming" , ages : [6,7,8] , maxCap : 10},
+    { name : "Skating" , ages : [8,9,10,11] , maxCap : 20},
+    { name : "Basketball" , ages : [6,8,] , maxCap : 10},
+    //{ name : "Weight Lifting" , ages : 13, maxCap : 10},
+
+];
+
+const largeGroup = activities.filter(activity => (activity.ages.includes(6)))//(activity.maxCap == 10)); *OG code take away the one before
+console.log(largeGroup);
